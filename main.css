@@ -8,23 +8,37 @@
 }
 
 .header1 {
-    font: 2em;
+    font: 3em;
 }
 
 .header2 {
-    font: 1.5em;
+    font: 2em;
 }
 
-.navbar {
-    
-}
+.navbar {}
 
 ul {
     list-style: none;
-    display: inline-block;
     vertical-align: top;
 }
 
+li {
+    display: inline-table;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 1.5em;
+}
+
 .description {
-    font: 1.5em;
+    font: 2em;
+}
+
+.headerimage {
+    width: 75%;
+    height: 50%;
+}
+
+.headerimage2 {
+    width: 50%;
+    height: 25%;
 }
