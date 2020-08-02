@@ -8,7 +8,9 @@
 }
 
 .header1 {
-    font: 3em;
+    font: 4em;
+    letter-spacing: .5em;
+    word-spacing: 1em;
 }
 
 .header2 {
@@ -27,18 +29,29 @@ li {
     margin-left: 1.5em;
     margin-right: 1.5em;
     font-size: 1.5em;
+    border: 3px solid black;
+    padding: .25em;
+    Border-radius: 25px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:link,
+a:vistited {
+    text-decoration: none;
+    color: black;
 }
 
-.description {
-    font: 2em;
+h4 {
+    font: 3em;
+    padding: 1em;
 }
 
 .headerimage {
     width: 75%;
     height: 50%;
+    border: .5em solid black;
+    border-radius: 25px;
 }
 
-.headerimage2 {
-    width: 50%;
-    height: 25%;
-}
